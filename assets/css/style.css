@@ -56,7 +56,19 @@ body {
 /* index slideshow */
 
 #indexSlideshow {
-    background-image: url(../images/G1_IMG1.jpg);
-    height: 400px;
-    width: 600px;
+    max-height: 800px;
+    overflow: hidden;
+}
+
+#indexSlideImg {
+    max-width: 100%;
+    background-color: #808080;
+    overflow: hidden;
+    position: 50% 50%;
+}
+
+/* responsive components */
+
+@media screen and (min-width: 600px) {
+
 }
