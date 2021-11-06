@@ -2,6 +2,10 @@
 var slideIndex = 0;
 showIndexSlides();
 
+/**
+ * This is the index slideshow for the Index page, this function takes five random images from the galleries and displays them 
+ */
+
 function showIndexSlides() {
 
   let i = 0;
