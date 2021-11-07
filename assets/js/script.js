@@ -28,9 +28,18 @@ function selectIndexSlides() {
  * This section creates the image HTML to be used by the index
  */
 
-  const img = document.createElement("img");
-  img.src = "../assets/images/indexSlides[0]"
-  }
+  let indexSlideImg1 = `../assets/images/${indexSlides[0]}`;
+  let indexSlideImg2 = `../assets/images/${indexSlides[1]}`;
+  let indexSlideImg3 = `../assets/images/${indexSlides[2]}`;
+  let indexSlideImg4 = `../assets/images/${indexSlides[3]}`;
+  let indexSlideImg5 = `../assets/images/${indexSlides[4]}`;
+
+  let indexSlideShow1 = document.createElement("img");
+  indexSlideShow1.className += ("indexSlideImg fade");
+  indexSlideShow1.src = `/assets/images/${indexSlides[0]}`;
+  document.getElementById("indexSlideshow").appendChild(indexSlideShow1);
+
+}
 
 /**
  * This is the index slideshow for the Index page, this function takes five random images from the galleries and displays them 
