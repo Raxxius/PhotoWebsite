@@ -18,3 +18,7 @@ function showIndexSlides() {
   slides[slideIndex-1].style.display = "block";  
   setTimeout(showIndexSlides, 5000); // Change image every 5 seconds
 }
+
+/**
+ * Gitpod is not sending commits?
+ */
