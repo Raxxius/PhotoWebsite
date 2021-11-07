@@ -33,7 +33,7 @@ function selectIndexSlides() {
   let indexSlideImg3 = `../assets/images/${indexSlides[2]}`;
   let indexSlideImg4 = `../assets/images/${indexSlides[3]}`;
   let indexSlideImg5 = `../assets/images/${indexSlides[4]}`;
-
+  
   let indexSlideShow1 = document.createElement("img");
   indexSlideShow1.className += ("indexSlideImg fade");
   indexSlideShow1.src = `/assets/images/${indexSlides[0]}`;
