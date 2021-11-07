@@ -44,24 +44,24 @@
         </div> -->
         <div id="selectors">
             <label for="portraitcheckbox">
-                <input type="checkbox" id="portraitcheckbox" name="portrait" value="yes">  Portrait 
+                <input type="checkbox" id="portraitcheckbox" onclick="gallerySort()">  Portrait 
              </label>
              <label for="landscapecheckbox">
-                <input type="checkbox" id="landscapecheckbox" name="landscape" value="yes">  Landscape 
+                <input type="checkbox" id="landscapecheckbox" onclick="gallerySort()">  Landscape 
              </label>
              <label for="2018checkbox">
-                <input type="checkbox" id="2018checkbox" name="2018" value="yes">  2018 
+                <input type="checkbox" id="checkbox2018" onclick="newFunction()" checked>  2018 
              </label>
              <label for="2019checkbox">
-                <input type="checkbox" id="2019checkbox" name="2019" value="yes">  2019
+                <input type="checkbox" id="checkbox2019" onclick="gallerySort()">  2019
              </label>
              <label for="2021checkbox">
-                <input type="checkbox" id="2020checkbox" name="2021" value="yes">  2021
+                <input type="checkbox" id="checkbox2021" onclick="gallerySort()">  2021
              </label>
             </div>
         <div id="maingallery">
             <img class="galleryThumb LCC2018 landscape" src="assets/images/LCC2018_1_thumb.jpg">
-            <img class="galleryThumb LCC2018 landscape" src="assets/images/LCC2018_2_thumb.jpg">
+            <img class="galleryThumb LCC2019 landscape" src="assets/images/LCC2018_2_thumb.jpg">
             <img class="galleryThumb LCC2018 portrait" src="assets/images/LCC2018_3_thumb.jpg">
             <img class="galleryThumb LCC2018 portrait" src="assets/images/LCC2018_4_thumb.jpg">
             <img class="galleryThumb LCC2018 landscape" src="assets/images/LCC2018_5_thumb.jpg">
@@ -75,5 +75,29 @@
             <img class="galleryThumb LCC2018 landscape" src="assets/images/LCC2018_13_thumb.jpg">
         </div>
     </div>
+
+
+<script> 
+
+function newFunction() {
+
+let i = 0;
+let images = document.getElementsByClassName("galleryThumb");
+for (i = 0; i < images.length; i++) {
+  images[i].style.display = "block";
+}
+
+let checkbox2018 = document.getElementById("checkbox2018");
+if (checkbox2018.checked == true) {console.log("checkbox is checked")}
+else { 
+    let GalleryVar = document.getElementsByClassName("LCC2018");
+    let a = 0;
+    for (a = 0; a < GalleryVar.length; i++) {
+        GalleryVar[a].style.display ="hidden";
+    }
+}
+}
+</script>
+
 </body>
 </html>

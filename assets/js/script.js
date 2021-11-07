@@ -34,14 +34,17 @@ function gallerySort() {
   }
 
   /** clears images with unselected boxes */
-  if ("2018checkbox" !== checked) {
+  let checkbox2018 = document.getElementById("checkbox2018");
+  if (2018checkbox.checked !== true){
     let a = 0;
     let checkbox2018 = document.getElementsByClassName("LCC2018");
     for (a = 0; a <checkbox2018.length; i++) {
       checkbox2018[a].style.display = "hidden";
     }
   }
-  if ("2019checkbox" !== checked) {
+}
+  /** 
+  if (2019checkbox.checked == true){
     let b = 0;
     let checkbox2019 = document.getElementsByClassName("LCC2019");
     for (b = 0; b <checkbox2019.length; i++) {
@@ -70,3 +73,4 @@ function gallerySort() {
     }
   }
 }
+*/
