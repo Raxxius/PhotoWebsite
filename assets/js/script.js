@@ -20,18 +20,35 @@ function showIndexSlides() {
 }
 
 /**
- * This function hides or displays images in the gallery depending upon the checkboxes selected
+ * This function hides or displays images in the gallery depending upon the checkboxes selected in the gallery
  */
 
-/** 
-function gallerySort() {
-
-  /** displays all images
-  let i = 0;
-  let images = document.getElementsByClassName("galleryThumb");
-  for (i = 0; i < images.length; i++) {
-    images[i].style.display = "block";
+ function displayNoneLoop() {
+  let GalleryVar = document.getElementsByClassName(arguments[0]);
+  let a = 0;
+  for (a = 0; a < GalleryVar.length; a++) {
+      GalleryVar[a].style.display ="none";
   }
-
 }
-*/
+
+function GalleryDisplay() {
+
+let i = 0;
+let images = document.getElementsByClassName("galleryThumb");
+for (i = 0; i < images.length; i++) {
+images[i].style.display = "block";
+}
+checkboxloop("checkbox2018", "LCC2018")
+checkboxloop("checkbox2019", "LCC2019")
+checkboxloop("checkbox2021", "LCC2021")
+checkboxloop("portraitcheckbox", "portrait")
+checkboxloop("landscapecheckbox", "landscape")
+}
+
+function checkboxloop() {
+let checkbox2018 = document.getElementById(arguments[0]);
+if (checkbox2018.checked !== true) {
+  displayNoneLoop(arguments[1]);
+  }
+}
+

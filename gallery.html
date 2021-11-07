@@ -44,19 +44,19 @@
         </div> -->
         <div id="selectors">
             <label for="portraitcheckbox">
-                <input type="checkbox" id="portraitcheckbox" onclick="gallerySort()">  Portrait 
+                <input type="checkbox" id="portraitcheckbox" onclick="GalleryDisplay()" checked>  Portrait 
              </label>
              <label for="landscapecheckbox">
-                <input type="checkbox" id="landscapecheckbox" onclick="gallerySort()">  Landscape 
+                <input type="checkbox" id="landscapecheckbox" onclick="GalleryDisplay()" checked>  Landscape 
              </label>
              <label for="2018checkbox">
-                <input type="checkbox" id="checkbox2018" onclick="newFunction()" checked>  2018 
+                <input type="checkbox" id="checkbox2018" onclick="GalleryDisplay()" checked>  2018 
              </label>
              <label for="2019checkbox">
-                <input type="checkbox" id="checkbox2019" onclick="gallerySort()">  2019
+                <input type="checkbox" id="checkbox2019" onclick="GalleryDisplay()" checked>  2019
              </label>
              <label for="2021checkbox">
-                <input type="checkbox" id="checkbox2021" onclick="gallerySort()">  2021
+                <input type="checkbox" id="checkbox2021" onclick="GalleryDisplay()" checked>  2021
              </label>
             </div>
         <div id="maingallery">
@@ -77,32 +77,7 @@
     </div>
 
 
-<script> 
-
-function displayNoneLoop() {
-    let GalleryVar = document.getElementsByClassName(arguments[0]);
-    let a = 0;
-    for (a = 0; a < GalleryVar.length; a++) {
-        GalleryVar[a].style.display ="none";
-    }
-}
-
-function newFunction() {
-
-let i = 0;
-let images = document.getElementsByClassName("galleryThumb");
-for (i = 0; i < images.length; i++) {
-  images[i].style.display = "block";
-}
-
-let checkbox2018 = document.getElementById("checkbox2018");
-if (checkbox2018.checked == true) {console.log("checkbox is checked")}
-else { displayNoneLoop("LCC2018")
-    }
-console.log("checkbox is unchecked")
-}
-
-</script>
+<script src="assets/js/script.js"> </script>
 
 </body>
 </html>
