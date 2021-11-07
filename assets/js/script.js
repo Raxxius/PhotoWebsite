@@ -19,24 +19,6 @@ function selectIndexSlides() {
       indexSlides.push(slideArray[num]);
       slideArray.splice(num, 1)
     }
-
-/**
-      }
-      else {
-        if (indexSlides[i] = indexSlides[num]) {
-          if (indexSlides[i] != indexSlides.length) {
-            num++;
-          }
-          else {
-            num--;
-         }
-        slide.slideArray.push("indexSlides[num]");
-        }
-     }
-    }
-  console.log ("loop complete");
-  console.log (slideArry[0]);
-  console.log (slideArry[1]); */
 }
 
 /**
