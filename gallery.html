@@ -79,6 +79,14 @@
 
 <script> 
 
+function displayNoneLoop() {
+    let GalleryVar = document.getElementsByClassName(arguments[0]);
+    let a = 0;
+    for (a = 0; a < GalleryVar.length; a++) {
+        GalleryVar[a].style.display ="none";
+    }
+}
+
 function newFunction() {
 
 let i = 0;
@@ -89,15 +97,11 @@ for (i = 0; i < images.length; i++) {
 
 let checkbox2018 = document.getElementById("checkbox2018");
 if (checkbox2018.checked == true) {console.log("checkbox is checked")}
-else { 
-    let GalleryVar = document.getElementsByClassName("LCC2018");
-    let a = 0;
-    for (a = 0; a < GalleryVar.length; a++) {
-        GalleryVar[a].style.display ="none";
+else { displayNoneLoop("LCC2018")
     }
 console.log("checkbox is unchecked")
 }
-}
+
 </script>
 
 </body>
