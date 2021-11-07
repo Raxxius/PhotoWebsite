@@ -9,6 +9,10 @@ selectIndexSlides();
  * The function then splices off the selected image from the array, this process is repeated 5 times to select 5 images randomly
  */
 
+/**
+ * This part of the function creates an array of 5 randomly selected image tags
+ */
+
 function selectIndexSlides() {
   let i = 0;
   let slideArray = ['LCC2018_1.jpg', 'LCC2018_2.jpg', 'LCC2018_5.jpg', 'LCC2018_7.jpg', 'LCC2018_8.jpg', 'LCC2018_10.jpg', 'LCC2018_11.jpg', 'LCC2018_12.jpg', 'LCC2018_13.jpg'];
@@ -19,7 +23,14 @@ function selectIndexSlides() {
       indexSlides.push(slideArray[num]);
       slideArray.splice(num, 1)
     }
-}
+
+/**
+ * This section creates the image HTML to be used by the index
+ */
+
+  const img = document.createElement("img");
+  img.src = "../assets/images/indexSlides[0]"
+  }
 
 /**
  * This is the index slideshow for the Index page, this function takes five random images from the galleries and displays them 
@@ -38,10 +49,11 @@ function showIndexSlides() {
   setTimeout(showIndexSlides, 5000); // Change image every 5 seconds
 }
 
-/**
- * These functions hides or displays images in the gallery depending upon the checkboxes selected in the gallery
- */
 
+
+/**
+ * These functions hides or displays images in the gallery.html depending upon the checkboxes selected in the gallery
+ */
 
 /**
  * The Core loop - removes images that are not tagged via the checkboxloop function
