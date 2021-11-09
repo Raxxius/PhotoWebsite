@@ -91,15 +91,6 @@ body {
     width: 100%;
 }
 
-#gallerycoverflow {
-    align-items: center;
-    display: flex;
-    height: 600px;
-    margin: 0 auto;
-    max-width: 1000px;
-    position: relative;
-}
-
 
 #maingallery {
     display: flex;
