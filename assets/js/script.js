@@ -1,6 +1,5 @@
 
 var slideIndex = 0;
-showIndexSlides();
 selectIndexSlides();
 
 /**
@@ -27,23 +26,35 @@ function selectIndexSlides() {
 /**
  * This section creates the image HTML to be used by the index
  */
-
-  let indexSlideImg1 = `../assets/images/${indexSlides[0]}`;
-  let indexSlideImg2 = `../assets/images/${indexSlides[1]}`;
-  let indexSlideImg3 = `../assets/images/${indexSlides[2]}`;
-  let indexSlideImg4 = `../assets/images/${indexSlides[3]}`;
-  let indexSlideImg5 = `../assets/images/${indexSlides[4]}`;
   
-  let indexSlideShow1 = document.createElement("img");
-  indexSlideShow1.className += ("indexSlideImg fade");
-  indexSlideShow1.src = `/assets/images/${indexSlides[0]}`;
-  document.getElementById("indexSlideshow").appendChild(indexSlideShow1);
-
+  let x = 0;
+  for (x = 0; x < 5; x++) {
+    let var1 = 'indexSlideShow'+[x]+'';
+    let var2 = document.createElement("img");
+    let var3 = `assets/images/${indexSlides[x]}`;
+    var2.className += ("indexSlideImg fade");
+    var2.src = var3;
+    var2.style.display += "none";
+    document.getElementById("indexSlideshow").appendChild(var2);
+  }
+    showIndexSlides()
+    function showIndexSlides() {
+    let z = 0;
+    let slides = document.getElementsByClassName("indexSlideImg");
+    console.log(slides[0]);
+      for (z = 0; z < slides.length; z++) {
+        slides[z].style.display = "none";  
+      }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showIndexSlides, 5000); // Change image every 5 seconds
+  }
 }
 
 /**
  * This is the index slideshow for the Index page, this function takes five random images from the galleries and displays them 
- */
+
 
 function showIndexSlides() {
 
@@ -58,7 +69,7 @@ function showIndexSlides() {
   setTimeout(showIndexSlides, 5000); // Change image every 5 seconds
 }
 
-
+ */
 
 /**
  * These functions hides or displays images in the gallery.html depending upon the checkboxes selected in the gallery
@@ -102,4 +113,5 @@ if (checkbox2018.checked !== true) {
   displayNoneLoop(arguments[1]);
   }
 }
+
 
