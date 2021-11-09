@@ -1,6 +1,5 @@
 
-var slideIndex = 0;
-selectIndexSlides();
+
 
 /**
  * This function selects 5 random landscape images for the index pages slider to used.
@@ -14,7 +13,7 @@ selectIndexSlides();
 
 function selectIndexSlides() {
   let i = 0;
-  let slideArray = ['LCC2018_1.jpg', 'LCC2018_2.jpg', 'LCC2018_5.jpg', 'LCC2018_7.jpg', 'LCC2018_8.jpg', 'LCC2018_10.jpg', 'LCC2018_11.jpg', 'LCC2018_12.jpg', 'LCC2018_13.jpg'];
+  let slideArray = ['lcc2018_1.jpg', 'lcc2018_2.jpg', 'lcc2018_5.jpg', 'lcc2018_7.jpg', 'lcc2018_8.jpg', 'lcc2018_10.jpg', 'lcc2018_11.jpg', 'lcc2018_12.jpg', 'lcc2018_13.jpg'];
   let indexSlides = [];
 
   for (i = 0; i < 5; i++) {
@@ -45,6 +44,7 @@ function selectIndexSlides() {
  */
 
     function showIndexSlides() {
+    let slideIndex = 0;
     let z = 0;
     let slides = document.getElementsByClassName("indexSlideImg");
     console.log(slides[0]);
