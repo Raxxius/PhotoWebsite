@@ -100,18 +100,13 @@ This page is responsive and will switch to a single image width on small screens
 ![galleryresponse](docs/screenshots/galleryresponse.png)
 
 
-
-An About Page.
+## **About page:** ##
 
 This simple page details a small amount of information about the author
 
+## *Contacts page:** ##
 
-User story: The purpose of this website is to provide the user with access to photographs taken by Gemma Brewin.
-
-
-Website key features:
-
-The Websites key features are the filter galley and carousel that displays images. 
+A page that links the Linton Camera Club website, and the artists flickr and twitter accounts.
 
 
 ## **Deployment:** ##
@@ -136,7 +131,32 @@ The gallery.html page performance
 
 While the performance of the website is somewhat slow, it should be noted that the website is deliberately image intensive as a function of the user story. The gallery page loads a lot of images, but the images are reduced in quality, however as the index page loads full size images, image quality was not comprimised. The design decision to limit the index slideshow to 5 images was a performace to function choice.  
 
+![jigsaw](docs/screenshots/gallery/jigsaw.png)
+
+No issues detected with the CSS via Jigsaw.
+
 ![jshint](docs/screenshots/jshint.png)
 
 Running the code through jshint with E6 configured showed 0 errors. 
 
+
+### **Testing** ###
+
+Launched website was tested on a PC (Chrome, Firefox, Edge) and an android phone (Chrome Android). All features were tested on all platforms, and no bugs were detected.
+
+## **Bugfixes** ##
+
+
+During development the following bugs were detected
+
+
+
+## **Credits** ##
+
+Initial code for the index slider was derived from the example from the w3schools 'how to js Slideshow' website:
+
+ https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+ StackOverFlow.com - using searches for javascript variable query, specifically
+* How to pass one variable from function A into function B ()
+* How to 
