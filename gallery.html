@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,80 +12,110 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Freehand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
         <h1 id="logo">
             Photography of <span id=signature>Gemma Brewin</span>
         </h1>
-        <nav id="menu"> 
-        <ul>
-            <li>
-                <a href="index.html" class="active">Home</a>
-            </li>
-            <li>
-                <a href="about.html" class="active">About</a>
-            </li>
-            <li>
-                <a href="gallery.html" class="active">Gallery</a>
-            </li>
-            <li>
-                <a href="contact.html" class="active">Contact</a>
-            </li>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="about.html" class="active">About</a>
+                </li>
+                <li>
+                    <a href="gallery.html" class="active">Gallery</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                </li>
         </nav>
         </ul>
     </header>
     <div id="gallery">
         <div id="selectors">
             <label for="portraitcheckbox">
-                <input type="checkbox" id="portraitcheckbox" onclick="GalleryDisplay()" checked>  Portrait 
-             </label>
-             <label for="landscapecheckbox">
-                <input type="checkbox" id="landscapecheckbox" onclick="GalleryDisplay()" checked>  Landscape 
-             </label>
-             <label for="2018checkbox">
-                <input type="checkbox" id="checkbox2018" onclick="GalleryDisplay()" checked>  2018 
-             </label>
-             <label for="2019checkbox">
-                <input type="checkbox" id="checkbox2019" onclick="GalleryDisplay()" checked>  2019
-             </label>
-             <label for="2021checkbox">
-                <input type="checkbox" id="checkbox2021" onclick="GalleryDisplay()" checked>  2021
-             </label>
-            </div>
+                <input type="checkbox" class="selector" id="portraitcheckbox" onclick="GalleryDisplay()" checked>
+                Portrait
+            </label>
+            <label for="landscapecheckbox">
+                <input type="checkbox" class="selector" id="landscapecheckbox" onclick="GalleryDisplay()" checked>
+                Landscape
+            </label>
+            <label for="2018checkbox">
+                <input type="checkbox" class="selector" id="checkbox2018" onclick="GalleryDisplay()" checked> 2018
+            </label>
+            <label for="2019checkbox">
+                <input type="checkbox" class="selector" id="checkbox2019" onclick="GalleryDisplay()" checked> 2019
+            </label>
+            <label for="2021checkbox">
+                <input type="checkbox" class="selector" id="checkbox2021" onclick="GalleryDisplay()" checked> 2021
+            </label>
+        </div>
         <div id="maingallery">
-            <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_1_thumb.jpg" alt="Robin" onclick="window.open(assets/images/lcc2019_1.jpg)">
+            <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_1_thumb.jpg" alt="Robin"
+                onclick="window.open(assets/images/lcc2019_1.jpg)">
             <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_2_thumb.jpg" alt="Frost on leaves">
-            <img class="galleryThumb LCC2018 portrait" src="assets/images/lcc2018_3_thumb.jpg" alt="Red wine glass"> 
+            <img class="galleryThumb LCC2018 portrait" src="assets/images/lcc2018_3_thumb.jpg" alt="Red wine glass">
             <img class="galleryThumb LCC2018 portrait" src="assets/images/lcc2018_4_thumb.jpg" alt="Lightbulb">
-            <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_5_thumb.jpg" alt="Lantern casting shadow">
-            <img class="galleryThumb LCC2018 portrait" src="assets/images/lcc2018_6_thumb.jpg" alt="Sunset in the forest">
+            <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_5_thumb.jpg"
+                alt="Lantern casting shadow">
+            <img class="galleryThumb LCC2018 portrait" src="assets/images/lcc2018_6_thumb.jpg"
+                alt="Sunset in the forest">
             <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_7_thumb.jpg" alt="Pink flowers">
-            <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_8_thumb.jpg" alt="Sunset in landscape">
+            <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_8_thumb.jpg"
+                alt="Sunset in landscape">
             <img class="galleryThumb LCC2018 portrait" src="assets/images/lcc2018_9_thumb.jpg" alt="Sunset in portrait">
             <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_10_thumb.jpg" alt="Clouds in sunset">
             <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_11_thumb.jpg" alt="Colourful sky 1">
             <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_12_thumb.jpg" alt="Colourful sky 2">
-            <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_13_thumb.jpg" alt="B&W railway tracks">
-            <img class="galleryThumb LCC2019 landscape" src="assets/images/lcc2019_1_thumb.jpg" alt="Icelandic waterfall"> 
+            <img class="galleryThumb LCC2018 landscape" src="assets/images/lcc2018_13_thumb.jpg"
+                alt="B&W railway tracks">
+            <img class="galleryThumb LCC2019 landscape" src="assets/images/lcc2019_1_thumb.jpg"
+                alt="Icelandic waterfall">
             <img class="galleryThumb LCC2019 portrait" src="assets/images/lcc2019_2_thumb.jpg" alt="Icelandic pony">
             <img class="galleryThumb LCC2019 landscape" src="assets/images/lcc2019_3_thumb.jpg" alt="Northern lights">
             <img class="galleryThumb LCC2019 landscape" src="assets/images/lcc2019_4_thumb.jpg" alt="Flowery meadow">
             <img class="galleryThumb LCC2019 landscape" src="assets/images/lcc2019_5_thumb.jpg" alt="Acorn">
             <img class="galleryThumb LCC2019 portrait" src="assets/images/lcc2019_6_thumb.jpg" alt="Broken egg">
-            <img class="galleryThumb LCC2019 landscape" src="assets/images/lcc2019_7_thumb.jpg" alt="Sunrise in Iceland">
+            <img class="galleryThumb LCC2019 landscape" src="assets/images/lcc2019_7_thumb.jpg"
+                alt="Sunrise in Iceland">
             <img class="galleryThumb LCC2021 landscape" src="assets/images/lcc2021_1_thumb.jpg" alt="Snowdrops">
             <img class="galleryThumb LCC2021 landscape" src="assets/images/lcc2021_2_thumb.jpg" alt="Snowdrops 2">
             <img class="galleryThumb LCC2021 landscape" src="assets/images/lcc2021_3_thumb.jpg" alt="Sunset on Skye">
-            <img class="galleryThumb LCC2021 portrait" src="assets/images/lcc2021_4_thumb.jpg" alt="Forth rail bridge portrait">
-            <img class="galleryThumb LCC2021 landscape" src="assets/images/lcc2021_5_thumb.jpg" alt="Forth rail bridge landscape">
-            <img class="galleryThumb LCC2021 portrait" src="assets/images/lcc2021_6_thumb.jpg" alt="Red flowers in meadow">
+            <img class="galleryThumb LCC2021 portrait" src="assets/images/lcc2021_4_thumb.jpg"
+                alt="Forth rail bridge portrait">
+            <img class="galleryThumb LCC2021 landscape" src="assets/images/lcc2021_5_thumb.jpg"
+                alt="Forth rail bridge landscape">
+            <img class="galleryThumb LCC2021 portrait" src="assets/images/lcc2021_6_thumb.jpg"
+                alt="Red flowers in meadow">
             <img class="galleryThumb LCC2021 landscape" src="assets/images/lcc2021_7_thumb.jpg" alt="Sunflowers">
             <img class="galleryThumb LCC2021 portrait" src="assets/images/lcc2021_8_thumb.jpg" alt="Angel of the North">
         </div>
     </div>
-
-
-<script src="assets/js/script.js"> </script>
-
+    <footer>
+        <div id="footerflex">
+            <p>Web Design by <a href="https://www.linkedin.com/in/keith-blackwood/" target="_blank" rel="noopener">Keith
+                    Blackwood </a></p>
+            <ul class="footer-social">
+                <li>
+                    <a href="http://Twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i
+                            class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="http://flickr.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-flickr""></i></a>
+                </li>
+            </ul>
+            <p>Copyright 2021 All rights reserved</p>
+        </div>
+    </footer>
+    <script src=" assets/js/script.js"></script>
+                            <script src="https://kit.fontawesome.com/3896f498a4.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

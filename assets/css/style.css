@@ -131,6 +131,10 @@ body {
     margin: 10px;
 }
 
+checkbox {
+    padding: 20px;
+}
+
 .portraitcheckbox {
     margin: 15px;
 }
@@ -157,7 +161,7 @@ body {
 
 /* responsive components */
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .portrait {
         width: 100%;
