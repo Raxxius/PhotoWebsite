@@ -1,12 +1,6 @@
 let slideIndex = 0;
 /**
  * This function selects 5 random landscape images for the index pages slider to used.
- * It uses the first array of images from the gallery and a random number generator that will select one from random and add it to the new array. 
- * The function then splices off the selected image from the array, this process is repeated 5 times to select 5 images randomly
- */
-
-/**
- * This part of the function creates an array of 5 randomly selected image tags
  */
 
 function selectIndexSlides() {
@@ -17,12 +11,8 @@ function selectIndexSlides() {
   for (i = 0; i < 5; i++) {
     let num = Math.floor(Math.random() * slideArray.length);
     indexSlides.push(slideArray[num]);
-    slideArray.splice(num, 1)
+    slideArray.splice(num, 1);
   }
-
-  /**
-   * This section creates the image HTML to be used by the index
-   */
 
   let x = 0;
   for (x = 0; x < 5; x++) {
@@ -33,22 +23,24 @@ function selectIndexSlides() {
     var2.style.display += "none";
     document.getElementById("indexSlideshow").appendChild(var2);
   }
-  showIndexSlides()
+  showIndexSlides();
 }
 
 /**
  * This is the index slideshow for the Index page, this function takes five random images from the galleries and displays them 
  */
 
- function showIndexSlides() {
+function showIndexSlides() {
   let z = 0;
   let slides = document.getElementsByClassName("indexSlideImg");
-    for (z = 0; z < slides.length; z++) {
-      slides[z].style.display = "none";  
-    }
+  for (z = 0; z < slides.length; z++) {
+    slides[z].style.display = "none";
+  }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  slides[slideIndex-1].style.display = "block";  
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].style.display = "block";
   setTimeout(showIndexSlides, 5000); // Change image every 5 seconds
 }
 
@@ -56,10 +48,6 @@ function selectIndexSlides() {
 
 /**
  * These functions hides or displays images in the gallery.html depending upon the checkboxes selected in the gallery
- */
-
-/**
- * The Core loop - removes images that are not tagged via the checkboxloop function
  */
 
 function displayNoneLoop() {
@@ -70,21 +58,17 @@ function displayNoneLoop() {
   }
 }
 
-/**
- * This function is the heart of the loop system, it makes all images visable (style.display = "block" and then runs the check box loop for each checkbox)
- */
-
 function GalleryDisplay() {
   let i = 0;
   let images = document.getElementsByClassName("galleryThumb");
   for (i = 0; i < images.length; i++) {
     images[i].style.display = "block";
   }
-  checkboxloop("checkbox2018", "LCC2018")
-  checkboxloop("checkbox2019", "LCC2019")
-  checkboxloop("checkbox2021", "LCC2021")
-  checkboxloop("portraitcheckbox", "portrait")
-  checkboxloop("landscapecheckbox", "landscape")
+  checkboxloop("checkbox2018", "LCC2018");
+  checkboxloop("checkbox2019", "LCC2019");
+  checkboxloop("checkbox2021", "LCC2021");
+  checkboxloop("portraitcheckbox", "portrait");
+  checkboxloop("landscapecheckbox", "landscape");
 }
 
 /**
