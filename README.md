@@ -88,3 +88,6 @@ Website key features:
 
 The Websites key features are the filter galley and carousel that displays images. 
 
+
+Deployment
+
