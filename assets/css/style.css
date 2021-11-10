@@ -45,9 +45,10 @@ header {
 /* Footer style */
 
 footer {
-    height: 80px;
+    height: 200px;
     width: 100%;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 footer p {
