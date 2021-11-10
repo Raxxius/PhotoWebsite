@@ -34,6 +34,8 @@ The user is to be able to:
 
 ## **Wireframes:** ##
 
+![wireframe](docs/screenshots/wireframe.png)
+
 An inital wireframe was developed 
 
 Wireframe picture.
