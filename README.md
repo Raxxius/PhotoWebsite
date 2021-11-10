@@ -99,6 +99,16 @@ This page is responsive and will switch to a single image width on small screens
 
 ![galleryresponse](docs/screenshots/galleryresponse.png)
 
+![justportait.png](docs/screenshots/justportrait.png)
+
+All selectors start ticked, when deselected the code does the following process
+
+*Reveals all images
+*Checks selector (ie, portrait is checked)
+*Hides images if the box is not selected
+*Moves to the next selectors
+*Loops back to the hide image code
+*Repeats through all selector boxes
 
 ## **About page:** ##
 
