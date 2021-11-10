@@ -95,6 +95,10 @@ The footer contains the artists social media links, twitter and flickr, addition
 
 The main component of the website, this is a page that displays the images of the artist. Images can be filtered by the tags at the top of the website.
 
+This page is responsive and will switch to a single image width on small screens.
+
+
+
 An About Page.
 
 This simple page details a small amount of information about the author
