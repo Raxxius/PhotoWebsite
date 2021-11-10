@@ -73,8 +73,11 @@ Nav links in the header go to the other pages of the site.
 ![Navbar](docs/screenshots/navbar.png)
 
 
+### **Slideshow:** ##
 
-Slideshow
+![slideshow2](docs/screenshots/slideshow2.png)
+![slideshow3](docs/screenshots/slideshow3.png)
+
 
 The principal component of the 
 
