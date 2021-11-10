@@ -120,7 +120,11 @@ Website is deployed on github pages
 ### **Performance:** ###
 
 ![indexlighthouse](docs/screenshots/indexlighthouse.png)
+
 The index.html page performance
 
 ![gallerylighthouse.png](docs/screenshots/gallerylighthouse.png)
+
 The gallery.html page performance
+
+While the performance of the website is somewhat slow, it should be noted that the website is deliberately image intensive as a function of the user story. The gallery page loads a lot of images, but the images are reduced in quality, however as the index page loads full size images, image quality was not comprimised. The design decision to limit the index slideshow to 5 images was a performace to function choice.  
