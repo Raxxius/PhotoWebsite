@@ -24,7 +24,7 @@ The user is to be able to:
 * Link to the artists social media pages.
 
 
-### **How it will be Achieved:** ###
+## **How it will be Achieved:** ##
 
 * A navigation bar in the header will allow the user to reach all parts of the website
 * The launch page will show the types of photos taken by the artist via a slide show of pictures randomly selected from the gallery.
@@ -32,7 +32,7 @@ The user is to be able to:
 * The footer will contain a connection to the artists twitter and flickr accounts. 
 
 
-## **Wireframes:** ##
+### **Wireframes:** ###
 
 ![wireframe](docs/screenshots/wireframe.png)
 
@@ -41,18 +41,18 @@ An inital wireframe was developed of the core gallery page
 Along the design process the inital concept of a carosel was removed as it detracted from the image gallery.
 
 
-## **Colour scheme:** ##
+### **Colour scheme:** ###
 
-As the photos are varied and take up a large proportion of the screens real estate, a neutral colourscheme was selected.
+As the photos are varied in colour and contrast, and take up a large proportion of the screens real estate, a neutral colourscheme was selected to not clash with any specific photo.
 
-A soft grey fade was used as the backdrop, with simple greys used to draw focus to the images,
+A soft grey fade was used as the backdrop, with simple greys used to allow the images to maintain the focus of the 
 
-Fonts
+### **Fonts:** ###
 
 A dsylexic friendly font was used for the main text, with the exception of dancing script, which was used for the signature, a real signature was considered, but due to fraud concerns it was decided to use a font.
 
 
-Features
+## **Site Features:** ##
 
 Launch page.
 
