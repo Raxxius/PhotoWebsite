@@ -114,7 +114,12 @@ The Websites key features are the filter galley and carousel that displays image
 
 ## **Deployment:** ##
 
-Website is deployed on github pages
+Website is deployed on github pages:
+
+![deployment](docs/screenshots/deployment.png)
+
+https://raxxius.github.io/PhotoWebsite/index.html
+
 
 
 ### **Performance:** ###
