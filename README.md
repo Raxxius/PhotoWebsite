@@ -91,9 +91,9 @@ The footer contains the artists social media links, twitter and flickr, addition
 ![footer](docs/screenshots/footer.png)
 
 
-Gallery page.
+## **Gallery page:** ##
 
-The main component of the website, this is a page that displays the images of the artist. Images can be filtered. 
+The main component of the website, this is a page that displays the images of the artist. Images can be filtered by the tags at the top of the website.
 
 An About Page.
 
