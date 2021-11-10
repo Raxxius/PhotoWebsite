@@ -112,5 +112,15 @@ Website key features:
 The Websites key features are the filter galley and carousel that displays images. 
 
 
-Deployment
+## **Deployment:** ##
 
+Website is deployed on github pages
+
+
+### **Performance:** ###
+
+![indexlighthouse](docs/screenshots/indexlighthouse.png)
+The index.html page performance
+
+![gallerylighthouse.png](docs/screenshots/gallerylighthouse.png)
+The gallery.html page performance
