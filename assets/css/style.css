@@ -36,10 +36,15 @@ header {
     text-decoration: lightslategrey;
 }
 
+a:hover {
+    text-decoration: black;
+  }
+
 #menu li {
     float: left;
     list-style-type: none;
     margin-right: 30px;
+    text-decoration: lightslategrey;
 }
 
 /* Footer style */
