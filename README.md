@@ -2,7 +2,7 @@
 
 ## **Site overview:**
 
-(docs/screenshots/readme1.png)
+![Responsive](docs/screenshots/readme1.png)
 
 Photo gallery websites are a common way for an artist to display their portfolio.
 
