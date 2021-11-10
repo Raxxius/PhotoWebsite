@@ -68,6 +68,12 @@ The header contains a logo, which is a stylised signature of the artist using go
 
 A feature of all the pages, the navigation bar has links to the other pages of the site.
 
+Nav links in the header go to the other pages of the site.
+
+![Navbar](docs/screenshots/navbar.png)
+
+
+
 Slideshow
 
 The principal component of the 
