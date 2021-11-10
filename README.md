@@ -97,6 +97,8 @@ The main component of the website, this is a page that displays the images of th
 
 This page is responsive and will switch to a single image width on small screens.
 
+![galleryresponse](docs/screenshots/galleryresponse.png)
+
 
 
 An About Page.
