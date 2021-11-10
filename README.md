@@ -36,15 +36,12 @@ The user is to be able to:
 
 ![wireframe](docs/screenshots/wireframe.png)
 
-An inital wireframe was developed 
-
-Wireframe picture.
-
+An inital wireframe was developed of the core gallery page
 
 Along the design process the inital concept of a carosel was removed as it detracted from the image gallery.
 
 
-Colour scheme.
+## **Colour scheme:** ##
 
 As the photos are varied and take up a large proportion of the screens real estate, a neutral colourscheme was selected.
 
