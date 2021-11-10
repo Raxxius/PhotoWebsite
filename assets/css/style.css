@@ -14,8 +14,9 @@ html {
 header {
     font-size: 100%;
     overflow: auto;
-    background-color: aquamarine;
+    background-color: whitesmoke;
     width: 100%;
+    margin: 5px;
 }
 
 #logo {
@@ -87,10 +88,19 @@ body {
   }
 
 /* gallery */
+
 #gallery {
     width: 100%;
 }
 
+#selectors {
+    display: flex;
+    margin: 10px;
+}
+
+.portraitcheckbox {
+    margin: 15px;
+}
 
 #maingallery {
     display: flex;
