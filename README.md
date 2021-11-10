@@ -54,7 +54,7 @@ A dsylexic friendly font was used for the main text, with the exception of danci
 
 ## **Site Features:** ##
 
-Launch page.
+![Launch page](docs/screenshots/indexpage.png)
 
 A simple index page designed for people to land on, with limited text, a simple header and a slideshow showcasing a few of the images,
 
