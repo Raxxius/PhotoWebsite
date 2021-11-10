@@ -146,10 +146,29 @@ Launched website was tested on a PC (Chrome, Firefox, Edge) and an android phone
 
 ## **Bugfixes** ##
 
+During development the following bugs were detected.
 
-During development the following bugs were detected
+1. 
+Problem - Initial slider query would not pass variables from one function to another
+Cause - wrong use of variables language
+Fix - use of arguements to pass variables
 
+2.
+Problem - When creating classelements in second part of the create slide index function, the code was being returned as an error
+Cause - variable itself cannot be used in conjuntion with other text, however that variable can be turned into a 2nd variable combined with the string that will pass through the code.
+Fix - use of 2 variables to create correct string
 
+3.
+Problem - js error code on pages without the selectIndexSlides() function
+Cause - selectIndexSlides() was a global function
+Fix - on the index page add an onload command to the body to load the selectIndexSlides() instead of making it a global function.
+
+### **unsolved bugs** ###
+
+While most bugs were solved, the following bugs remain
+
+1. need for slideIndex to be a global variable remains unsolved (js bug)
+2. gallery resizing slightly distorting images (css bug)
 
 ## **Credits** ##
 
