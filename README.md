@@ -180,6 +180,15 @@ While most bugs were solved, the following bugs remain
 1. need for slideIndex to be a global variable remains unsolved (js bug)
 2. gallery resizing slightly distorting images (css bug)
 
+### **future work** ###
+
+The following features are to be implimented, but were not done so due to time constraints
+
+* When selectors combinations that produce no images are selected, have text to say so
+* Add slide show for portrait pictures on about and contact pages for full sized page only
+* Add further galleries
+* Space selectors out so that years are on the right of the page, and attributes on the left
+
 ## **Credits** ##
 
 Initial code for the index slider was derived from the example from the w3schools 'how to js Slideshow' website:
