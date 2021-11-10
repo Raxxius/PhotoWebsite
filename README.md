@@ -187,5 +187,10 @@ Initial code for the index slider was derived from the example from the w3school
  https://www.w3schools.com/howto/howto_js_slideshow.asp
 
  StackOverFlow.com - using searches for javascript variable query, specifically
-* How to pass one variable from function A into function B ()
-* How to 
+* How to pass one variable from function A into function B () via arguements
+* How to use variables to create a series of html elements
+
+
+Photos are taken by and are property of Gemma Brewin, all rights are reserved. 
+
+Richard Wells - Mentor at Code Insitute. 
