@@ -42,6 +42,39 @@ header {
     margin-right: 30px;
 }
 
+/* Footer style */
+
+footer {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    width: 33%;
+}
+
+#footerflex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 5%;
+}
+
+.footer-social {
+    height: 60px;
+    font-size: 200%;
+    width: 33%;
+}
+
+.footer-social li {
+    display: inline;
+    padding: 5%
+}
+
+.footer-social i {
+    color: brown;
+}
 
 /* body style */
 
