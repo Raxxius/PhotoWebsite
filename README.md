@@ -1,18 +1,20 @@
-Photo website
+# **Photo website**
 
-Site overview:
+## **Site overview:**
+
+(docs/screenshots/readme1.png)
 
 Photo gallery websites are a common way for an artist to display their portfolio.
 
+This website displays a number of images that were taken by Gemma Brewin
 
-Planning stage:
+## **Planning stage:**
 
-
-Target audience:
+### **Target audience:**
 
 People interested in viewing photos taken by the artist.
 
-User Stories:
+### ***User Stories:***
 
 The user is to be able to:
 
