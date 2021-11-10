@@ -126,4 +126,14 @@ body {
 
 @media screen and (min-width: 600px) {
 
+    .portrait {
+        width: 100%;
+    }
+    
+    .landscape {
+        width: 100%;
+    }
+    
+
+
 }
