@@ -54,12 +54,17 @@ A dsylexic friendly font was used for the main text, with the exception of danci
 
 ## **Site Features:** ##
 
+### **Launch page:** ###
+
 ![Launch page](docs/screenshots/indexpage.png)
 
-A simple index page designed for people to land on, with limited text, a simple header and a slideshow showcasing a few of the images,
+The launch page is a simple page with a header, footer, and slideshow.
 
+### **Header:** ###
 
-Navigation bar.
+The header contains a logo, which is a stylised signature of the artist using googlefonts Dancing Script. 
+
+![Title](docs/screenshots/title.png)
 
 A feature of all the pages, the navigation bar has links to the other pages of the site.
 
