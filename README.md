@@ -77,12 +77,21 @@ Nav links in the header go to the other pages of the site.
 
 ![slideshow2](docs/screenshots/slideshow2.png)
 ![slideshow3](docs/screenshots/slideshow3.png)
+examples of images in the slide show
+
+The principal component of the index page is the slideshow, this is a Javascript function that works in 2 steps.
+* Selects 5 images from the gallerys which are in portrait
+* Adds these images to the index page with a timer that changes the image every 5 seconds
 
 
-The principal component of the 
+### **Footer:** ##
+
+The footer contains the artists social media links, twitter and flickr, additionally a copyright and web design.
+
+![footer](docs/screenshots/footer.png)
 
 
-A gallery page.
+Gallery page.
 
 The main component of the website, this is a page that displays the images of the artist. Images can be filtered. 
 
