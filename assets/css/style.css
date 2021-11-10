@@ -176,6 +176,11 @@ checkbox {
     padding: 10px;
 }
 
+.contacttext {
+    padding: 10px;
+    text-decoration: none;
+}
+
 /* responsive components */
 
 @media screen and (max-width: 600px) {
