@@ -18,28 +18,23 @@ People interested in viewing photos taken by the artist.
 
 The user is to be able to:
 
-from the launch page, get an impression on the type of photos the artist takes
-
-navigate to the gallery to look at the photos.
-
-Contact the artist if they want more information.
-
-Link to the artists social media pages.
+* from the launch page, get an impression on the type of photos the artist takes
+* navigate to the gallery to look at the photos.
+* Contact the artist if they want more information.
+* Link to the artists social media pages.
 
 
-How it will be Achieved
+### **How it will be Achieved:** ###
 
-The launch page will have a lot of the page dedicated to a slide show of pictures randomly selected from the gallery.
-
-The gallery page will have all the images displayed in thumbnail views with filters depending on the pictures orientation and year it was taken.
-
-The footer will contain a connection to the artists twitter and flickr accounts. 
-
+* A navigation bar in the header will allow the user to reach all parts of the website
+* The launch page will show the types of photos taken by the artist via a slide show of pictures randomly selected from the gallery.
+* The gallery page will have all the images displayed in thumbnail views with filters depending on the pictures orientation and year it was taken.
+* The footer will contain a connection to the artists twitter and flickr accounts. 
 
 
-Wireframes,
+## **Wireframes:** ##
 
-Inital wireframe is presented here
+An inital wireframe was developed 
 
 Wireframe picture.
 
