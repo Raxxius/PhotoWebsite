@@ -165,6 +165,17 @@ checkbox {
 }
 
 
+/* about page */
+
+#aboutGemma {
+    display: flex;
+    flex-direction: column;
+}
+
+.abouttext {
+    padding: 10px;
+}
+
 /* responsive components */
 
 @media screen and (max-width: 600px) {
